@@ -7,6 +7,51 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <WrapPanel
+            Orientation="Horizontal">
+            <Button
+                x:Name="BSearch"
+                Content="Search"
+                Click="BSearch_Click" />
+            <Button
+                x:Name="BInstallCSV"
+                Content="CSV"
+                Click="BInstallCSV_Click" />
+            <Button
+                x:Name="BStreets"
+                Content="Streets"
+                Click="BStreets_Click" />
+        </WrapPanel>
+        <DataGrid
+            AutoGenerateColumns="False"
+            IsReadOnly="True"
+            Grid.Row="1"
+            x:Name="DGData">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Header="Full name"
+                    Binding="{Binding FullName}" />
+                <DataGridTextColumn
+                    Header="Street"
+                    Binding="{Binding Adress.Streets.Name}" />
+
+                <DataGridTextColumn
+                    Header="Number House"
+                    Binding="{Binding Adress.NumberHome}" />
+                <DataGridTextColumn
+                    Header="Phone(Work)"
+                    Binding="{Binding PhoneWork}" />
+                <DataGridTextColumn
+                    Header="Phone(Home)"
+                    Binding="{Binding PhoneHome}" />
+                <DataGridTextColumn
+                    Header="Phone(Mobile)"
+                    Binding="{Binding PhoneMobile}" />
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

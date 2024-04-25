@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище PhoneCompanyModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Abonent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Fename" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AdressId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Adress">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NumberHome" Type="int" Nullable="false" />
+    <Property Name="StreetId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PhoneNumber">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Phone" Type="char" MaxLength="11" Nullable="false" />
+    <Property Name="TypeId" Type="int" Nullable="false" />
+    <Property Name="AbonentId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Streets">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TypeNumber">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Abonent_Adress">
+    <End Role="Adress" Type="Self.Adress" Multiplicity="1" />
+    <End Role="Abonent" Type="Self.Abonent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Adress">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Abonent">
+        <PropertyRef Name="AdressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Adress_Streets">
+    <End Role="Streets" Type="Self.Streets" Multiplicity="1" />
+    <End Role="Adress" Type="Self.Adress" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Streets">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Adress">
+        <PropertyRef Name="StreetId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoneNumber_Abonent">
+    <End Role="Abonent" Type="Self.Abonent" Multiplicity="1" />
+    <End Role="PhoneNumber" Type="Self.PhoneNumber" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Abonent">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PhoneNumber">
+        <PropertyRef Name="AbonentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhoneNumber_TypeNumber">
+    <End Role="TypeNumber" Type="Self.TypeNumber" Multiplicity="1" />
+    <End Role="PhoneNumber" Type="Self.PhoneNumber" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeNumber">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PhoneNumber">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище PhoneCompanyModelContainer">
+    <EntitySet Name="Abonent" EntityType="Self.Abonent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Adress" EntityType="Self.Adress" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhoneNumber" EntityType="Self.PhoneNumber" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Streets" EntityType="Self.Streets" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TypeNumber" EntityType="Self.TypeNumber" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Abonent_Adress" Association="Self.FK_Abonent_Adress">
+      <End Role="Adress" EntitySet="Adress" />
+      <End Role="Abonent" EntitySet="Abonent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Adress_Streets" Association="Self.FK_Adress_Streets">
+      <End Role="Streets" EntitySet="Streets" />
+      <End Role="Adress" EntitySet="Adress" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoneNumber_Abonent" Association="Self.FK_PhoneNumber_Abonent">
+      <End Role="Abonent" EntitySet="Abonent" />
+      <End Role="PhoneNumber" EntitySet="PhoneNumber" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhoneNumber_TypeNumber" Association="Self.FK_PhoneNumber_TypeNumber">
+      <End Role="TypeNumber" EntitySet="TypeNumber" />
+      <End Role="PhoneNumber" EntitySet="PhoneNumber" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

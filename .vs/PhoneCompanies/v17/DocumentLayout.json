@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|c:\\users\\3d\\desktop\\my works\\phonecompanies\\phonecompanies\\models\\partials\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|solutionrelative:phonecompanies\\models\\partials\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|c:\\users\\3d\\desktop\\my works\\phonecompanies\\phonecompanies\\models\\partials\\abonent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|solutionrelative:phonecompanies\\models\\partials\\abonent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|c:\\users\\3d\\desktop\\my works\\phonecompanies\\phonecompanies\\models\\abonent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|solutionrelative:phonecompanies\\models\\abonent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|c:\\users\\3d\\desktop\\my works\\phonecompanies\\phonecompanies\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|solutionrelative:phonecompanies\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|c:\\users\\3d\\desktop\\my works\\phonecompanies\\phonecompanies\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\phonecompanies\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|solutionrelative:phonecompanies\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|c:\\users\\3d\\desktop\\my works\\phonecompanies\\phonecompanies\\models\\modelphonecompany.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|solutionrelative:phonecompanies\\models\\modelphonecompany.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|c:\\users\\3d\\desktop\\my works\\phonecompanies\\phonecompanies\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|solutionrelative:phonecompanies\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|c:\\users\\3d\\desktop\\my works\\phonecompanies\\phonecompanies\\windows\\searchnumber.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|solutionrelative:phonecompanies\\windows\\searchnumber.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|c:\\users\\3d\\desktop\\my works\\phonecompanies\\phonecompanies\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|solutionrelative:phonecompanies\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|c:\\users\\3d\\desktop\\my works\\phonecompanies\\phonecompanies\\windows\\searchnumber.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|solutionrelative:phonecompanies\\windows\\searchnumber.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|c:\\users\\3d\\desktop\\my works\\phonecompanies\\phonecompanies\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3D7BA6D-E8A9-41E7-A93A-2D10D5992D7E}|PhoneCompanies\\PhoneCompanies.csproj|solutionrelative:phonecompanies\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +54,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Abonent.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\Models\\Abonent.cs",
+              "RelativeDocumentMoniker": "PhoneCompanies\\Models\\Abonent.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\Models\\Abonent.cs",
+              "RelativeToolTip": "PhoneCompanies\\Models\\Abonent.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:25:40.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModelPhoneCompany.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\Models\\ModelPhoneCompany.edmx",
+              "RelativeDocumentMoniker": "PhoneCompanies\\Models\\ModelPhoneCompany.edmx",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\Models\\ModelPhoneCompany.edmx [Diagram1]",
+              "RelativeToolTip": "PhoneCompanies\\Models\\ModelPhoneCompany.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-04-25T06:23:26.126Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Abonent.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\Models\\Partials\\Abonent.cs",
+              "RelativeDocumentMoniker": "PhoneCompanies\\Models\\Partials\\Abonent.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\Models\\Partials\\Abonent.cs",
+              "RelativeToolTip": "PhoneCompanies\\Models\\Partials\\Abonent.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:17:59.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\App.config",
+              "RelativeDocumentMoniker": "PhoneCompanies\\App.config",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\App.config",
+              "RelativeToolTip": "PhoneCompanies\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-25T06:12:06.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Windows\\SearchNumber.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\Windows\\SearchNumber.xaml.cs",
+              "RelativeDocumentMoniker": "PhoneCompanies\\Windows\\SearchNumber.xaml.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\Windows\\SearchNumber.xaml.cs",
+              "RelativeToolTip": "PhoneCompanies\\Windows\\SearchNumber.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwCAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T05:56:24.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\App.xaml",
+              "RelativeDocumentMoniker": "PhoneCompanies\\App.xaml",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\App.xaml",
+              "RelativeToolTip": "PhoneCompanies\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-25T05:48:15.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PhoneNumber.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\Models\\Partials\\PhoneNumber.cs",
+              "RelativeDocumentMoniker": "PhoneCompanies\\Models\\Partials\\PhoneNumber.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\Models\\Partials\\PhoneNumber.cs",
+              "RelativeToolTip": "PhoneCompanies\\Models\\Partials\\PhoneNumber.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T05:43:00.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SearchNumber.xaml",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\Windows\\SearchNumber.xaml",
+              "RelativeDocumentMoniker": "PhoneCompanies\\Windows\\SearchNumber.xaml",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\Windows\\SearchNumber.xaml",
+              "RelativeToolTip": "PhoneCompanies\\Windows\\SearchNumber.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-25T05:30:00.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\App.xaml.cs",
+              "RelativeDocumentMoniker": "PhoneCompanies\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\App.xaml.cs",
+              "RelativeToolTip": "PhoneCompanies\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T05:28:09.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\MainWindow.xaml",
               "RelativeDocumentMoniker": "PhoneCompanies\\MainWindow.xaml",
@@ -34,13 +184,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "PhoneCompanies\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\3D\\Desktop\\My works\\PhoneCompanies\\PhoneCompanies\\MainWindow.xaml.cs",
               "RelativeToolTip": "PhoneCompanies\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAB8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T05:05:15.317Z",
               "EditorCaption": ""

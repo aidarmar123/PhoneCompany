@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PhoneCompanies.Windows;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,28 @@ namespace PhoneCompanies
         public MainWindow()
         {
             InitializeComponent();
+            Refresh();
+        }
+
+        private void Refresh()
+        {
+            DGData.ItemsSource = App.DB.Abonent.ToList();
+        }
+
+        private void BSearch_Click(object sender, RoutedEventArgs e)
+        {
+            new SearchNumber().Show();
+        }
+
+
+        private void BInstallCSV_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BStreets_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

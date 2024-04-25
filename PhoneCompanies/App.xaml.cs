@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PhoneCompanies.Models;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,9 @@ namespace PhoneCompanies
     /// </summary>
     public partial class App : Application
     {
+       public static PhoneCompanyEntities DB = new PhoneCompanyEntities();
+
+
+        public static PhoneCompanyEntities ContextDB = DB;
     }
 }
