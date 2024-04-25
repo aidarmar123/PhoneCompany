@@ -9,6 +9,7 @@
 
 namespace PhoneCompanies.Models
 {
+    using CsvHelper.Configuration.Attributes;
     using System;
     using System.Collections.Generic;
     
@@ -21,8 +22,11 @@ namespace PhoneCompanies.Models
         }
     
         public int Id { get; set; }
+        [Name("First Name")]
         public string Name { get; set; }
+        [Name("Fename")]
         public string Fename { get; set; }
+        [Name("Surname")]
         public string Surname { get; set; }
         public int AdressId { get; set; }
     

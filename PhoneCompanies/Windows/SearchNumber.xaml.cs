@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PhoneCompanies.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,13 +31,29 @@ namespace PhoneCompanies.Windows
         {
             if(!String.IsNullOrEmpty(InputSearchNumber))
             {
-                //var newList = App.DB.Abonent(a=>a.)
+                List<Abonent> abonents = App.DB.Abonent.ToList();
+                
+                var newList = abonents.Where(ab => ab.PhoneHome.Contains(InputSearchNumber)
+                || ab.PhoneWork.Contains(InputSearchNumber) 
+                || ab.PhoneMobile.Contains(InputSearchNumber))
+                .ToList();
+                if (newList.Count > 0) 
+                {
+                    App.contextAbonets = newList;
+                    App.Refresh();
+                }
+                else
+                {
+                    MessageBox.Show("Not found abonents satisfying the search criteria");
+                }
+
+                this.Close();
             }
             else
             {
                 MessageBox.Show("Line is empty");
             }
-            MessageBox.Show("Not found abonents satisfying the search criteria");
+            
 
         }
     }

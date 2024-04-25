@@ -9,6 +9,7 @@
 
 namespace PhoneCompanies.Models
 {
+    using CsvHelper.Configuration.Attributes;
     using System;
     using System.Collections.Generic;
     
@@ -21,6 +22,7 @@ namespace PhoneCompanies.Models
         }
     
         public int Id { get; set; }
+        [Name("Street name")]
         public string Name { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

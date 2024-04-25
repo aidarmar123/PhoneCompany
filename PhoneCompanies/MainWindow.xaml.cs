@@ -24,28 +24,32 @@ namespace PhoneCompanies
         public MainWindow()
         {
             InitializeComponent();
-            Refresh();
+            App.mainWindow=this;
+            App.Refresh();
         }
 
-        private void Refresh()
-        {
-            DGData.ItemsSource = App.DB.Abonent.ToList();
-        }
+        
 
         private void BSearch_Click(object sender, RoutedEventArgs e)
         {
-            new SearchNumber().Show();
+            new SearchNumber().ShowDialog();
         }
 
 
         private void BInstallCSV_Click(object sender, RoutedEventArgs e)
         {
-
+            new InstallCSV().ShowDialog();
         }
 
         private void BStreets_Click(object sender, RoutedEventArgs e)
         {
+            new StreetsWindow().Show();
+        }
 
+        private void BAll_Click(object sender, RoutedEventArgs e)
+        {
+            App.contextAbonets = App.DB.Abonent.ToList();
+            App.Refresh();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CsvHelper.Configuration.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace PhoneCompanies.Models
 {
     partial class Abonent
     {
+        
         public string FullName
         {
             get
@@ -15,6 +17,7 @@ namespace PhoneCompanies.Models
                 return $"{Name} {Fename} {Surname}";
             }
         }
+        [Name("Phone Home")]
         public string PhoneHome
         {
             //Type 1 - мобильный телефон в БД
@@ -23,7 +26,9 @@ namespace PhoneCompanies.Models
                 var phone = App.DB.PhoneNumber.FirstOrDefault(pn => pn.AbonentId == Id && pn.TypeId == 1);
                 return phone.Phone;
             }
+            set { }
         }
+        [Name("Phone Work")]
         public string PhoneWork
         {
             //Type 2 - мобильный телефон в БД
@@ -33,6 +38,7 @@ namespace PhoneCompanies.Models
                 return phone.Phone;
             }
         }
+        [Name("Phone Mobile")]
         public string PhoneMobile
         {
 

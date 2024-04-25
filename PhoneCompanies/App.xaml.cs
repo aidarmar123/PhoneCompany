@@ -14,9 +14,16 @@ namespace PhoneCompanies
     /// </summary>
     public partial class App : Application
     {
-       public static PhoneCompanyEntities DB = new PhoneCompanyEntities();
+        public static PhoneCompanyEntities DB = new PhoneCompanyEntities();
+        
+        public static MainWindow mainWindow;
+        public static List<Abonent> contextAbonets = DB.Abonent.ToList();
+        public static void Refresh()
+        {
+            
 
-
-        public static PhoneCompanyEntities ContextDB = DB;
+            mainWindow.DGData.ItemsSource = contextAbonets;
+        }
+        
     }
 }
